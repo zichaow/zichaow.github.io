@@ -256,9 +256,63 @@
 
 <!-- <p>I am a research scientist at Adobe Research. Previously, I obtained my Ph.D. (2023), M.S. (2020), and B.S. (2016), all in Electrical and Computer Engineering at Rice University, advised by <a href="https://richb.rice.edu">Richard Baraniuk</a>. I have also worked at Google AI, NVIDIA Research, and Microsoft Research Cambridge as a research intern. -->
 
-<p>I am a research scientist at Adobe Research. I conduct interdisciplinary and applied research inspired by real-world problems, all the way from from ideation to production. I have been fortunate to lead a few research initiatives that form the foundation of several key features of the <a href="https://time.com/7094842/adobe-acrobat-ai-assistant/">award-winning</a> <a href="https://www.adobe.com/acrobat/generative-ai-pdf.html">Acrobat AI Assistant</a>, such as personalized suggested question generation and on-device document summarization. <strong>My latest research interersts/initiatives include GUI (or computer use) agents for creativity/design tasks and synthetic data/user/human</strong>. I broadly publish at ML/NLP/HCI/education venues.</p>
+<p>I am a research scientist at Adobe Research. My research vision is to develop AI that works <em>with</em> humans, with applications to learning, productivity, and creativity. Specifically, my current research focuses on the following directions:</p>
 
-<p>I also have deep expertise and personal interest in AI technologies for education applications. My work during PhD pioneered several novel, award-winning AI methodologies for education use cases [<a href="https://eceweb.rice.edu/news/rice-alumnus-leads-team-rice-ece-phd-students-15000-grand-prize">1</a>,<a href="https://educationaldatamining.org/data-set-awards/">2</a>,<a href="https://datascience.uchicago.edu/research/postdoctoral-programs/rising-stars/2022/">3</a>], some of which are patented [<a href="https://patents.google.com/patent/US12147407B2/en">1</a>] or already deployed [<a href="https://www.eedi.com/research?171ded95_page=3">1</a>]. I continue to contribute to this direction by academic collaborations [<a href="https://aclanthology.org/2025.emnlp-industry.68.pdf">1</a>,<a href="https://arxiv.org/pdf/2310.02439">2</a>] and serving as speakers, organizers, and advisors in various AI for education initiatives [<a href="https://ai4ed.cc/workshops/aaai2024">1</a>,<a href="https://iraise-25-aaai.my.canva.site/">2</a>,<a href="https://www.menloedu.org/interweaving-assessment">3</a>].</p>
+<style>
+  details.research-direction {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 0.6em 1em;
+    margin-bottom: 0.5em;
+    background: #fafafa;
+  }
+  details.research-direction summary {
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+  }
+  details.research-direction summary::-webkit-details-marker { display: none; }
+  details.research-direction summary::before {
+    content: "▸";
+    display: inline-block;
+    transition: transform 0.2s;
+  }
+  details.research-direction[open] summary::before {
+    transform: rotate(90deg);
+  }
+  details.research-direction .details-content {
+    margin-top: 0.5em;
+    padding-left: 1.4em;
+  }
+</style>
+
+<details class="research-direction">
+  <summary>Human-Centered Workflow Automation</summary>
+  <div class="details-content">
+    Developing AI agents that automate complex workflows under a mixed-initiative paradigm &mdash; where the human remains in the driver's seat, can naturally interrupt or take over at any point, and the system intelligently determines what to automate and when to defer to the user.
+  </div>
+</details>
+
+<details class="research-direction">
+  <summary>Agent-UX Co-Design</summary>
+  <div class="details-content">
+    Developing AI agents with end-user experience as a first-class design consideration, jointly shaping agent capabilities and interaction patterns with the interface.
+  </div>
+</details>
+
+<details class="research-direction">
+  <summary>Scalable Experimentation and Evaluation</summary>
+  <div class="details-content">
+    Developing simulation-based techniques for rapid evaluation of product prototypes, early user signal extraction, and scalable A/B testing.
+  </div>
+</details>
+
+<p>My research has led to several major technical contributions to the <a href="https://time.com/7094842/adobe-acrobat-ai-assistant/">award-winning</a> <a href="https://www.adobe.com/acrobat/generative-ai-pdf.html">Acrobat AI Assistant</a> used by millions of professionals, including personalized question generation and on-device small language model for document summarization. I hold 2 US patents with 8 additional patents pending.</p>
+
+<p>Before joining Adobe, I pioneered multiple novel AI methodologies for education use cases [<a href="https://eceweb.rice.edu/news/rice-alumnus-leads-team-rice-ece-phd-students-15000-grand-prize">1</a>,<a href="https://educationaldatamining.org/data-set-awards/">2</a>,<a href="https://datascience.uchicago.edu/research/postdoctoral-programs/rising-stars/2022/">3</a>], some of which are patented [<a href="https://patents.google.com/patent/US12147407B2/en">1</a>] or already deployed [<a href="https://www.eedi.com/research?171ded95_page=3">1</a>]. I continue to contribute to this direction through academic collaborations [<a href="https://aclanthology.org/2025.emnlp-industry.68.pdf">1</a>,<a href="https://arxiv.org/pdf/2310.02439">2</a>] and by serving as a speaker, organizer, and advisor in various AI for education initiatives [<a href="https://ai4ed.cc/workshops/aaai2024">1</a>,<a href="https://iraise-25-aaai.my.canva.site/">2</a>,<a href="https://www.menloedu.org/interweaving-assessment">3</a>]. I am a recipient of the Rising Star in Data Science award, a grand prize winner at the NAEP Reading Automated Scoring Challenge, the Loewenstern Fellowship, the Ken Kennedy Institute Schlumberger Graduate Fellowship, among others.</p>
 
 <!-- <p>My research broadly centers around <strong>machine intelligence for human intelligence</strong>, with applications to (human) learning, productivity, and creativity. During PhD, I have contributed to this direction in the context of education by developing new technologies for generating educational content and for modeling learners' learning progress. While I continue to work on AI for education, my recent focus has been on developing systems and methods to enable humans to work and interact better with information, in particular documents such as PDFs, in both consumption (e.g., reading) and creation (e.g., writing) scenarios.</p> -->
 <!-- <p>My research focuses on <strong>machine intelligence for human intelligence</strong>, with applications in large-scale, personalized learning in education.  -->
